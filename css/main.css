@@ -1,0 +1,111 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.activities {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.activities-items {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 25px;
+}
+.avatar {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 10px 10px 0px 10px;
+}
+.botton {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 20;
+  text-decoration: none;
+}
+.contact {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.contact-icon {
+  width: 16px;
+  margin-right: 12px;
+  margin-bottom: 4px;
+}
+
+.container {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y29kZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+  min-height: 100vh;
+  padding: 58px;
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 48px;
+  }
+}
+.content {
+  max-width: 500px;
+}
+.education {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.experience-items {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 25px;
+}
+.invited-speaker {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.invited-speaker-items {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 25px;
+}
+.job {
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.name {
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 24px;
+  }
+}
+.publication {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.publication-items {
+  font-size: 18px;
+  font-weight: 300;
+  color: gray;
+  margin-bottom: 25px;
+}
